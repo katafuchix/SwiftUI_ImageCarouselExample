@@ -21,7 +21,7 @@ struct ImageCarouseHelper: UIViewRepresentable {
     }
     
     func makeUIView(context: Context) -> UIView {
-        return UIView()
+        return UIView(frame: .zero)
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {
